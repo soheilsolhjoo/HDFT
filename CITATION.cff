@@ -1,0 +1,8 @@
+message: "If you use this software, please cite it as below."
+author:
+    Soheil Solhjoo
+    orcid: https://orcid.org/0000-0003-2583-4952
+title: "Hot Deformation"
+version: 1.13.4
+doi: 10.5281/zenodo.5218532
+date-released: 2021-08-18
