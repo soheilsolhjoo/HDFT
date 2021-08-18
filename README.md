@@ -4,7 +4,6 @@ The code is published under [GNU GPLv3 license](https://choosealicense.com/licen
 
 This code is developed to study hot deformation's stress-strain data sets. Various models are available, including the hyperbolic sine model of Sellars and Tegart [1], its revised version [2], and its limiting exponential and power-law models. Moreover, a code for training Artificial Neural Networks is available as well.
 
-## References
 [1] C. M. Sellars and W. McTegart, “On the mechanism of hot deformation”, Acta Metallurgica 14.9 (1966), pp. 1136–1138.
 <br />[2] S. Solhjoo. "Revisiting the common practice of Sellars and Tegart’shyperbolic sine constitutive model: a critical note", to be submitted.
 
