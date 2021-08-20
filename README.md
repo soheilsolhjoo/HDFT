@@ -1,4 +1,4 @@
-# Hot Deformation Fitting Tool (HDFT) [![DOI](https://zenodo.org/badge/339745520.svg)](https://zenodo.org/badge/latestdoi/339745520)
+# Hot Deformation Fitting Tool (HDFT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5226216.svg)](https://doi.org/10.5281/zenodo.5226216)
 The code is published under [GNU GPLv3 license](https://choosealicense.com/licenses/gpl-3.0/).
 
 
