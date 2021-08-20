@@ -1,8 +1,8 @@
-# HotDeformation [![DOI](https://zenodo.org/badge/339745520.svg)](https://zenodo.org/badge/latestdoi/339745520)
+# Hot Deformation Fitting Tool [![DOI](https://zenodo.org/badge/339745520.svg)](https://zenodo.org/badge/latestdoi/339745520)
 The code is published under [GNU GPLv3 license](https://choosealicense.com/licenses/gpl-3.0/).
 
 
-This code is developed to study hot deformation's stress-strain data sets. Various models are available, including the hyperbolic sine model of Sellars and Tegart [1], its revised version [2], and its limiting exponential and power-law models. Moreover, a code for training Artificial Neural Networks is available as well.
+HDFT code (written in MATLAB) is developed to study hot deformation's stress-strain data sets. Various models are available, including the hyperbolic sine model of Sellars and Tegart [1], its revised version [2], and its limiting exponential and power-law models. Moreover, a code for training Artificial Neural Networks is available as well.
 
 [1] C. M. Sellars and W. McTegart, “On the mechanism of hot deformation”, Acta Metallurgica 14.9 (1966), pp. 1136–1138.
 <br />[2] S. Solhjoo. "Revisiting the common practice of Sellars and Tegart’shyperbolic sine constitutive model: a critical note", to be submitted.
