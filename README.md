@@ -24,4 +24,4 @@ For example:
 <br />0.1	200
 
 
-File "HD_runner.m" is a sample file for calling functions, and each has a detailed descrptoin on how it works. Among the controlling input arguments, ***CK*** is crucial, which should be decided by the user based on the temperature unit: *Celcius -> CK=1* and *Kelvin -> CK=0*.
+File "HD_runner.m" is a sample file for calling functions, and each has a detailed descrptoin on how it works. Among the controlling input arguments, ***CK*** is the first one for all the functions, which determines the temperature unit: *Celcius -> CK=1* and *Kelvin -> CK=0*.
