@@ -76,13 +76,7 @@ R = 8.314;  %Gas constant
 [ss_approx,strain,strate,temp,u_rates,u_temp,index] = ...
     HD_g_load_data_files(N,strain_spec,CK,0);
 %% Find | calculate ave_alpha and ave_n
-[mesh_alpha,mesh_n,Q,lnA] = HD_sinh_conventional(CK,100,0.05,[0,0],'poly9',0);
-if averaging_alpha
-    mesh_alpha = mean(mesh_alpha(:));
-end
-if averaging_n
-    mesh_n = mean(mesh_n(:));
-end
+[mesh_alpha,mesh_n,Q,lnA] = HD_sinh_conventional(100,0,[averaging_alpha,averaging_n],'poly9',0);
 
 %# Prepare data
 [temp,strate,ss_approx] = HD_g_sortrows_dist([temp,strate,ss_approx'],1);
