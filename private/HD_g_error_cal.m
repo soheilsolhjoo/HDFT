@@ -7,7 +7,10 @@
 % determination (r2), and Pearson correlation coefficient (rxy).
 % 
 %% DISCLAIMER
-% This program is provided as is for free use. 
+%   HDFT  Copyright (C) 2021  Soheil Solhjoo
+%   This program comes with ABSOLUTELY NO WARRANTY.
+%   This is free software, and you are welcome to redistribute it under certain conditions.
+%   Check "copyright.txt" in the main folder.
 % 
 %           Soheil Solhjoo
 %           February 17, 2021
