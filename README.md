@@ -8,7 +8,7 @@ HDFT code (written in MATLAB) is developed to study hot deformation's stress-str
 <br />[2] S. Solhjoo. "Revisiting the common practice of Sellars and Tegart’shyperbolic sine constitutive model: a critical note", to be submitted.
 
 ## File formatting
-The input data must be stored in files with the name **#.data**, where "#" is a number; e.g., "1.data", "2.data", etc. Each file must have the following format:
+The **input data** must be stored in files with the name **#.data**, where "#" is a number; e.g., "1.data", "2.data", etc. Each file must have the following format:
 <br />line 1: *Temperature*
 <br />line 2: *Strain-rate*
 <br />line 3: *strain   stress*
@@ -23,5 +23,14 @@ For example:
 <br />  ...
 <br />0.1	200
 
+The main **output** is saved in **HDFT_fit.mat** containing various structures. The general one is "input" that is the processed input data. Moreover, each function generates a separate structure for itself:
+<br />PL# (HD_power_law)
+<br />EX# (HD_exponential)
+<br />ST## (HD_sinh_conventional)
+<br />STR### (HD_sinh_revisited)
+<br />ANN#_# (HD_ANN)
 
+***NOTE**: HDFT does not save two structures with the same name, and the newer structure overwrites previous one, if existed.*
+
+## Calling Functions
 File "HD_runner.m" is a sample file for calling functions, and each has a detailed descrptoin on how it works. Among the controlling input arguments, ***CK*** is the first one for all the functions, which determines the temperature unit: *Celcius -> CK=1* and *Kelvin -> CK=0*.
