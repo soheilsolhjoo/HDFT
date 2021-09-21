@@ -30,7 +30,7 @@ The main **output** is saved in **HDFT_fit.mat** containing various structures. 
 <br />STR### (HD_sinh_revisited)
 <br />ANN#_# (HD_ANN)
 
-***NOTE**: HDFT does not save two structures with the same name, and the newer structure overwrites previous one, if existed.*
+***NOTE**: HDFT does not save two structures with the same name, and the newer structure overwrites the previous one, if existed.*
 
 ## Calling Functions
 File "HD_runner.m" is a sample file for calling functions, and each has a detailed descrptoin on how it works. Among the controlling input arguments, ***CK*** is the first one for all the functions, which determines the temperature unit: *Celcius -> CK=1* and *Kelvin -> CK=0*.
