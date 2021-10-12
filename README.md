@@ -5,7 +5,8 @@ The code is published under [GNU GPLv3 license](https://choosealicense.com/licen
 HDFT code (written in MATLAB) is developed to study hot deformation's stress-strain data sets. Various models are available, including the hyperbolic sine model of Sellars and Tegart [1], its revised version [2], and its limiting exponential and power-law models. Moreover, a code for training Artificial Neural Networks is available as well.
 
 [1] C. M. Sellars and W. McTegart, “On the mechanism of hot deformation”, Acta Metallurgica 14.9 (1966), pp. 1136–1138.
-<br />[2] S. Solhjoo. "Revisiting the common practice of Sellars and Tegart’shyperbolic sine constitutive model: a critical note", to be submitted.
+<br />[2] S. Solhjoo. "Revisiting the common practice of Sellars and Tegart’shyperbolic sine constitutive model: a critical note", preprint available at [ResearchGate, doi:10.13140/RG.2.2.29589.45284](http://dx.doi.org/10.13140/RG.2.2.29589.45284).
+
 
 ## File formatting
 The **input data** must be stored in files with the name **#.data**, where "#" is a number; e.g., "1.data", "2.data", etc. Each file must have the following format:
