@@ -12,14 +12,14 @@
 HDFT code (written in MATLAB) is developed to study hot deformation's stress-strain data sets. Various models are available, including the hyperbolic sine model of Sellars and Tegart [1], its revised version [2], and its limiting exponential and power-law models. Moreover, a code for training Artificial Neural Networks is available as well.
 
 [1] C. M. Sellars and W. McTegart, “On the mechanism of hot deformation”, Acta Metallurgica 1966, 14(9), 1136–1138.
-<br />[2] S. Solhjoo. "Revisiting the common practice of Sellars and Tegart’shyperbolic sine constitutive model: a critical note", Modelling 2022, 3(3), 359-373, doi:[10.3390/modelling3030023](https://doi.org/10.3390/modelling3030023).
+<br />[2] S. Solhjoo, "Revisiting the common practice of Sellars and Tegart’shyperbolic sine constitutive model: a critical note", Modelling 2022, 3(3), 359-373, doi:[10.3390/modelling3030023](https://doi.org/10.3390/modelling3030023).
 
 ## Copyright and license
 The HDFT code is licensed under the [GNU GPLv3 license](https://choosealicense.com/licenses/gpl-3.0/). The details of this licence can be found in the files COPYRIGHT.txt. The code is written by Dr. Soheil Solhjoo.
 
 ## How to cite
 The essentials of this code have been outlined in:
-- S. Solhjoo. "Revisiting the common practice of Sellars and Tegart’shyperbolic sine constitutive model: a critical note", available at [Modelling, doi:10.3390/modelling3030023](https://doi.org/10.3390/modelling3030023).
+- S. Solhjoo, "Revisiting the common practice of Sellars and Tegart’shyperbolic sine constitutive model: a critical note", Modelling 2022, 3(3), 359-373, doi:[10.3390/modelling3030023](https://doi.org/10.3390/modelling3030023).
 
 Moreover, upon using the HDFT code, cite the code's DOI and its github page as well:
 - https://github.com/soheilsolhjoo/HDFT
