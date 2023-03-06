@@ -20,7 +20,18 @@ The HDFT code is licensed under the [GNU GPLv3 license](https://choosealicense.c
 ## How to cite
 The essentials of this code have been outlined in:
 - S. Solhjoo, "Revisiting the common practice of Sellars and Tegart’s hyperbolic sine constitutive model: a critical note", Modelling 2022, 3(3), 359-373, doi:[10.3390/modelling3030023](https://doi.org/10.3390/modelling3030023).
-
+```
+@article{solhjoo2022modelling,
+  title={Revisiting the Common Practice of Sellars and Tegart’s Hyperbolic Sine Constitutive Model},
+  author={Solhjoo, Soheil},
+  journal={Modelling},
+  volume={3},
+  number={3},
+  pages={359--373},
+  year={2022},
+  publisher={MDPI}
+}
+```
 Moreover, upon using the HDFT code, please cite the code's DOI and its GitHub page as well:
 - https://github.com/soheilsolhjoo/HDFT
 - https://doi.org/10.5281/zenodo.5226216
